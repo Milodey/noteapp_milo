@@ -12,6 +12,7 @@ const newNote = function(title, body) {
     fs.writeFileSync('notepad.json', JSON.stringify(notes));
 
     console.log('From notes.js -->', title, '--', body);
+
 }
 const uploadNotes = function() {
     try {
